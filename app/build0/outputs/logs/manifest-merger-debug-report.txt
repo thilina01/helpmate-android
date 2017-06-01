@@ -1,0 +1,515 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\3eed5d49f3f6029f4e47a0dbbd987624\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\b5ca620e7ce7186416713dc25db64a11\AndroidManifest.xml:17:1-28:12
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\circleimageview-1.3.0.aar\8c9ce626b644b84b458e872d17bbcd64\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\7e0585acdd339406f6fe66e624ec662a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-10.2.1.aar\708efdefbbc9a8b55f5bf6c1a2e7707e\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-database:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-database-10.2.1.aar\3e54c553a95df7002efe74d251427fb0\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-storage-10.2.1.aar\ee83a03cb78c514543ab5b2c212f2eca\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-10.2.1.aar\b6ae91327aec73fe8d6bce377f94f6a8\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.2.1.aar\a2afb10b57d1fad569de98a1042f205b\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-config:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-config-10.2.1.aar\1461f3dc5f8593d648f4167df6240a87\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\5c9aabfc70cac8cd7795f587ecfa841c\AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-ads:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-10.2.1.aar\6a6f18be1bd4f389e7140eeeff1ec05c\AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-10.2.1.aar\32d5f139bfafe8ff35ed3f44ca4a4dce\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-gass-10.2.1.aar\ac533b80c18f48d4a94bf2db3580c136\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-appindexing:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-10.2.1.aar\93e619ead6b291ee8592f337564221e7\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\0181b15b9887700cc4420bf5c4d70ec3\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-crash:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-crash-10.2.1.aar\2cd02af1116b10be908b81c0179185ec\AndroidManifest.xml:16:1-25:12
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-1.2.0.aar\37e540e453f1737cefa9945058ee9a25\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a1a2a95977bf72a5eeb4317b2e7dd95b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dfaf26097a36836ed273bfef472647ce\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\b8799b5ad900057e214fb406f74a7c3c\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.firebase:firebase-database-connection:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-10.2.1.aar\2d4f0c4b9a295ed8d216e6ccd7af4d32\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-core-10.2.1.aar\f13e781b46f7c7bc26010d83e8f57ca5\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\fa42e2a399a0aabe647c79311769d9a1\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\b3bf4ab9333efa71c8ac0ac43e881996\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\9d55eba02a1aa720f376fb52036f144b\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\e4e039ae96a9c3ef9f3d48b1c49bdf33\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb715f196067da9563f9d412595333c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\30ca248b7627a390a5f67a9ec71c5727\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\982662bfb467f84c670b25954bcbdad2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\50f020a805f1998a21ebbeda86d002eb\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\b1cdc56a8b031a2435f06051fb141c5d\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:2:11-40
+		INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:3:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:19:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-crash-10.2.1.aar\2cd02af1116b10be908b81c0179185ec\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-crash-10.2.1.aar\2cd02af1116b10be908b81c0179185ec\AndroidManifest.xml:18:5-66
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-1.2.0.aar\37e540e453f1737cefa9945058ee9a25\AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-1.2.0.aar\37e540e453f1737cefa9945058ee9a25\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:9:5-68
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:9:22-65
+application
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:11:5-54:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\3eed5d49f3f6029f4e47a0dbbd987624\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\3eed5d49f3f6029f4e47a0dbbd987624\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\b5ca620e7ce7186416713dc25db64a11\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\b5ca620e7ce7186416713dc25db64a11\AndroidManifest.xml:26:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\circleimageview-1.3.0.aar\8c9ce626b644b84b458e872d17bbcd64\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\circleimageview-1.3.0.aar\8c9ce626b644b84b458e872d17bbcd64\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\7e0585acdd339406f6fe66e624ec662a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\7e0585acdd339406f6fe66e624ec662a\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.2.1.aar\a2afb10b57d1fad569de98a1042f205b\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.2.1.aar\a2afb10b57d1fad569de98a1042f205b\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-config:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-config-10.2.1.aar\1461f3dc5f8593d648f4167df6240a87\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-config-10.2.1.aar\1461f3dc5f8593d648f4167df6240a87\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\5c9aabfc70cac8cd7795f587ecfa841c\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\5c9aabfc70cac8cd7795f587ecfa841c\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-10.2.1.aar\32d5f139bfafe8ff35ed3f44ca4a4dce\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-10.2.1.aar\32d5f139bfafe8ff35ed3f44ca4a4dce\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-gass-10.2.1.aar\ac533b80c18f48d4a94bf2db3580c136\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-gass-10.2.1.aar\ac533b80c18f48d4a94bf2db3580c136\AndroidManifest.xml:4:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-10.2.1.aar\93e619ead6b291ee8592f337564221e7\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-10.2.1.aar\93e619ead6b291ee8592f337564221e7\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\0181b15b9887700cc4420bf5c4d70ec3\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\0181b15b9887700cc4420bf5c4d70ec3\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-crash:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-crash-10.2.1.aar\2cd02af1116b10be908b81c0179185ec\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-crash-10.2.1.aar\2cd02af1116b10be908b81c0179185ec\AndroidManifest.xml:22:5-23:19
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-1.2.0.aar\37e540e453f1737cefa9945058ee9a25\AndroidManifest.xml:13:5-17:19
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-1.2.0.aar\37e540e453f1737cefa9945058ee9a25\AndroidManifest.xml:13:5-17:19
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a1a2a95977bf72a5eeb4317b2e7dd95b\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a1a2a95977bf72a5eeb4317b2e7dd95b\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dfaf26097a36836ed273bfef472647ce\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dfaf26097a36836ed273bfef472647ce\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-core-10.2.1.aar\f13e781b46f7c7bc26010d83e8f57ca5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-core-10.2.1.aar\f13e781b46f7c7bc26010d83e8f57ca5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\fa42e2a399a0aabe647c79311769d9a1\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\fa42e2a399a0aabe647c79311769d9a1\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\b3bf4ab9333efa71c8ac0ac43e881996\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\b3bf4ab9333efa71c8ac0ac43e881996\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\9d55eba02a1aa720f376fb52036f144b\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\9d55eba02a1aa720f376fb52036f144b\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\e4e039ae96a9c3ef9f3d48b1c49bdf33\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\e4e039ae96a9c3ef9f3d48b1c49bdf33\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb715f196067da9563f9d412595333c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb715f196067da9563f9d412595333c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\30ca248b7627a390a5f67a9ec71c5727\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\30ca248b7627a390a5f67a9ec71c5727\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\982662bfb467f84c670b25954bcbdad2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\982662bfb467f84c670b25954bcbdad2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\50f020a805f1998a21ebbeda86d002eb\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\50f020a805f1998a21ebbeda86d002eb\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\b1cdc56a8b031a2435f06051fb141c5d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\b1cdc56a8b031a2435f06051fb141c5d\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.nanosl.helpmate.MainActivity
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:17:9-33:20
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:17:19-66
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:19:17-68
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:21:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:23:13-32:29
+action#android.intent.action.VIEW
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:24:17-68
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:25:17-75
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:25:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:26:27-75
+data
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:27:17-31:23
+	android:host
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:28:21-68
+	android:scheme
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:29:21-42
+	android:pathPrefix
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:30:21-50
+activity#com.nanosl.helpmate.SignInActivity
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:35:9-52
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:35:19-49
+activity#com.nanosl.helpmate.request.AddRequestActivity
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:36:9-65
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:36:19-62
+service#com.nanosl.helpmate.MyFirebaseMessagingService
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:38:9-44:19
+	android:exported
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:39:13-55
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:41:13-43:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:42:17-78
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:42:25-75
+service#com.nanosl.helpmate.MyFirebaseInstanceIdService
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:46:9-52:19
+	android:exported
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:47:13-56
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:49:13-51:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:50:17-80
+	android:name
+		ADDED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml:50:25-77
+uses-sdk
+INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\3eed5d49f3f6029f4e47a0dbbd987624\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\3eed5d49f3f6029f4e47a0dbbd987624\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\b5ca620e7ce7186416713dc25db64a11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\b5ca620e7ce7186416713dc25db64a11\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\circleimageview-1.3.0.aar\8c9ce626b644b84b458e872d17bbcd64\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\circleimageview-1.3.0.aar\8c9ce626b644b84b458e872d17bbcd64\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\7e0585acdd339406f6fe66e624ec662a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\7e0585acdd339406f6fe66e624ec662a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-10.2.1.aar\708efdefbbc9a8b55f5bf6c1a2e7707e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-10.2.1.aar\708efdefbbc9a8b55f5bf6c1a2e7707e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-database-10.2.1.aar\3e54c553a95df7002efe74d251427fb0\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-database-10.2.1.aar\3e54c553a95df7002efe74d251427fb0\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-storage-10.2.1.aar\ee83a03cb78c514543ab5b2c212f2eca\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-storage-10.2.1.aar\ee83a03cb78c514543ab5b2c212f2eca\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-10.2.1.aar\b6ae91327aec73fe8d6bce377f94f6a8\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-10.2.1.aar\b6ae91327aec73fe8d6bce377f94f6a8\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.2.1.aar\a2afb10b57d1fad569de98a1042f205b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-auth-10.2.1.aar\a2afb10b57d1fad569de98a1042f205b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-config-10.2.1.aar\1461f3dc5f8593d648f4167df6240a87\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-config-10.2.1.aar\1461f3dc5f8593d648f4167df6240a87\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\5c9aabfc70cac8cd7795f587ecfa841c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\5c9aabfc70cac8cd7795f587ecfa841c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-10.2.1.aar\6a6f18be1bd4f389e7140eeeff1ec05c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-10.2.1.aar\6a6f18be1bd4f389e7140eeeff1ec05c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-10.2.1.aar\32d5f139bfafe8ff35ed3f44ca4a4dce\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-10.2.1.aar\32d5f139bfafe8ff35ed3f44ca4a4dce\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-gass-10.2.1.aar\ac533b80c18f48d4a94bf2db3580c136\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-gass-10.2.1.aar\ac533b80c18f48d4a94bf2db3580c136\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-10.2.1.aar\93e619ead6b291ee8592f337564221e7\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-10.2.1.aar\93e619ead6b291ee8592f337564221e7\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\0181b15b9887700cc4420bf5c4d70ec3\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\0181b15b9887700cc4420bf5c4d70ec3\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-crash-10.2.1.aar\2cd02af1116b10be908b81c0179185ec\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-crash-10.2.1.aar\2cd02af1116b10be908b81c0179185ec\AndroidManifest.xml:20:5-43
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-1.2.0.aar\37e540e453f1737cefa9945058ee9a25\AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-1.2.0.aar\37e540e453f1737cefa9945058ee9a25\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a1a2a95977bf72a5eeb4317b2e7dd95b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a1a2a95977bf72a5eeb4317b2e7dd95b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dfaf26097a36836ed273bfef472647ce\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dfaf26097a36836ed273bfef472647ce\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\b8799b5ad900057e214fb406f74a7c3c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\b8799b5ad900057e214fb406f74a7c3c\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-10.2.1.aar\2d4f0c4b9a295ed8d216e6ccd7af4d32\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-10.2.1.aar\2d4f0c4b9a295ed8d216e6ccd7af4d32\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-core-10.2.1.aar\f13e781b46f7c7bc26010d83e8f57ca5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-core-10.2.1.aar\f13e781b46f7c7bc26010d83e8f57ca5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\fa42e2a399a0aabe647c79311769d9a1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\fa42e2a399a0aabe647c79311769d9a1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\b3bf4ab9333efa71c8ac0ac43e881996\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\b3bf4ab9333efa71c8ac0ac43e881996\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\9d55eba02a1aa720f376fb52036f144b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\9d55eba02a1aa720f376fb52036f144b\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\e4e039ae96a9c3ef9f3d48b1c49bdf33\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\e4e039ae96a9c3ef9f3d48b1c49bdf33\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb715f196067da9563f9d412595333c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb715f196067da9563f9d412595333c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\30ca248b7627a390a5f67a9ec71c5727\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\30ca248b7627a390a5f67a9ec71c5727\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\982662bfb467f84c670b25954bcbdad2\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\982662bfb467f84c670b25954bcbdad2\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\50f020a805f1998a21ebbeda86d002eb\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\50f020a805f1998a21ebbeda86d002eb\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\b1cdc56a8b031a2435f06051fb141c5d\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\b1cdc56a8b031a2435f06051fb141c5d\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\3eed5d49f3f6029f4e47a0dbbd987624\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\AndroidStudioProjects\Helpmate\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\3eed5d49f3f6029f4e47a0dbbd987624\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\b5ca620e7ce7186416713dc25db64a11\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\b5ca620e7ce7186416713dc25db64a11\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\7e0585acdd339406f6fe66e624ec662a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\7e0585acdd339406f6fe66e624ec662a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a1a2a95977bf72a5eeb4317b2e7dd95b\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a1a2a95977bf72a5eeb4317b2e7dd95b\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dfaf26097a36836ed273bfef472647ce\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dfaf26097a36836ed273bfef472647ce\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\b8799b5ad900057e214fb406f74a7c3c\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\b8799b5ad900057e214fb406f74a7c3c\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\e4e039ae96a9c3ef9f3d48b1c49bdf33\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\e4e039ae96a9c3ef9f3d48b1c49bdf33\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb715f196067da9563f9d412595333c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb715f196067da9563f9d412595333c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\30ca248b7627a390a5f67a9ec71c5727\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\30ca248b7627a390a5f67a9ec71c5727\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\982662bfb467f84c670b25954bcbdad2\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\982662bfb467f84c670b25954bcbdad2\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\50f020a805f1998a21ebbeda86d002eb\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\50f020a805f1998a21ebbeda86d002eb\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\b1cdc56a8b031a2435f06051fb141c5d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\b1cdc56a8b031a2435f06051fb141c5d\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\3eed5d49f3f6029f4e47a0dbbd987624\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\3eed5d49f3f6029f4e47a0dbbd987624\AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\49e4ffc8c3d9beed6c70efc6da10bcb3\AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\708bccd132cc0ec1247dc8a5f9352185\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\50c7a51db6360d8b53d0c3d1a615b73d\AndroidManifest.xml:32:16-87
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-10.2.1.aar\c5ef204a627fda9f01c04e196cd36723\AndroidManifest.xml:22:25-87
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\5c9aabfc70cac8cd7795f587ecfa841c\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\5c9aabfc70cac8cd7795f587ecfa841c\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\5c9aabfc70cac8cd7795f587ecfa841c\AndroidManifest.xml:23:18-87
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-10.2.1.aar\956ae9556efd2cda3a3a7a407db4d6ed\AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\0181b15b9887700cc4420bf5c4d70ec3\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\0181b15b9887700cc4420bf5c4d70ec3\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\0181b15b9887700cc4420bf5c4d70ec3\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\0181b15b9887700cc4420bf5c4d70ec3\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-1.2.0.aar\37e540e453f1737cefa9945058ee9a25\AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\9d55eba02a1aa720f376fb52036f144b\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\9d55eba02a1aa720f376fb52036f144b\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-1.2.0.aar\37e540e453f1737cefa9945058ee9a25\AndroidManifest.xml:16:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-1.2.0.aar\37e540e453f1737cefa9945058ee9a25\AndroidManifest.xml:15:13-58
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\f687345631ab7787ade442ef29d615de\AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\fa42e2a399a0aabe647c79311769d9a1\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\fa42e2a399a0aabe647c79311769d9a1\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\fa42e2a399a0aabe647c79311769d9a1\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\fa42e2a399a0aabe647c79311769d9a1\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Thilina\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\fa42e2a399a0aabe647c79311769d9a1\AndroidManifest.xml:6:79-143

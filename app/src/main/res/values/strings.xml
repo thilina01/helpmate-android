@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Helpmate</string>
+    <string name="welcome_msg">Welcome to help!</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="contacts_permission_rationale">Access to account information is required to sign in.</string>
+    <string name="invite_menu_label">Invite</string>
+    <string name="invitation_message">Please join for a help</string>
+    <string name="invitation_cta">Call to action</string>
+    <string name="invitation_title">Helpmate Invite</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="fresh_config">Fresh Config</string>
+    <string name="cause_crash">Cause Crash</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="description">Description</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="phone">Phone</string>
+    <string name="location">Location</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="gps_location">GPS Location</string>
+    <string name="add">ADD</string>
+    <string name="request">Request</string>
+    <string name="name">Name</string>
+    <string name="donation_center">Donation Center</string>
+    <string name="donation_centers">Donation Centers</string>
+    <string name="donation">Donation</string>
+    <string name="donations">Donations</string>
+    <string name="gallery">Gallery</string>
+    <string name="requests">Requests</string>
+    <string name="exit">Exit</string>
+</resources>
