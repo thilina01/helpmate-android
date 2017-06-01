@@ -10,10 +10,12 @@ import com.google.firebase.database.FirebaseDatabase;
 public class RequestService {
 
     public static final String CHILD = "requests";
-    public static void save(Request request){
+
+    public static void save(Request request) {
         FirebaseDatabase.getInstance().getReference().child(CHILD).push().setValue(request);
     }
-    public static DatabaseReference getRequestReference(String id){
+
+    public static DatabaseReference getRequestReference(String id) {
         return FirebaseDatabase.getInstance().getReference().child(CHILD).child(id);
     }
 }

@@ -64,7 +64,7 @@ public class DisplayDonationActivity extends AppCompatActivity implements
         addressTextView = (TextView) findViewById(R.id.addressTextView);
         cityTextView = (TextView) findViewById(R.id.cityTextView);
         phoneTextView = (TextView) findViewById(R.id.phoneTextView);
-       // locationTextView = (TextView) findViewById(R.id.locationTextView);
+        // locationTextView = (TextView) findViewById(R.id.locationTextView);
 
         descriptionTextView.setText(donation.getDescription());
         contactPersonTextView.setText(donation.getContactPerson());

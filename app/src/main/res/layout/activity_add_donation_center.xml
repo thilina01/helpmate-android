@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/colorBackground"
     tools:context="com.nanosl.helpmate.request.AddRequestActivity">
 
     <LinearLayout
@@ -17,73 +17,85 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-<!--
-        <TextView android:textColor="@color/colorText"
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/donation_center"
-            android:textAppearance="@android:style/TextAppearance.Large" />
--->
-        <EditText android:textColorHint="@color/textColorHint" android:textColor="@color/colorText"
+        <!--
+                <TextView android:textColor="@color/colorText"
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/donation_center"
+                    android:textAppearance="@android:style/TextAppearance.Large" />
+        -->
+        <EditText
             android:id="@+id/nameEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:hint="@string/name" />
+            android:hint="@string/name"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/textColorHint" />
 
-        <EditText android:textColorHint="@color/textColorHint" android:textColor="@color/colorText"
+        <EditText
             android:id="@+id/descriptionEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:hint="@string/description" />
+            android:hint="@string/description"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/textColorHint" />
 
-        <EditText android:textColorHint="@color/textColorHint" android:textColor="@color/colorText"
+        <EditText
             android:id="@+id/contactPersonEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:hint="@string/contact_person" />
+            android:hint="@string/contact_person"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/textColorHint" />
 
-        <EditText android:textColorHint="@color/textColorHint" android:textColor="@color/colorText"
+        <EditText
             android:id="@+id/addressEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:hint="@string/address" />
+            android:hint="@string/address"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/textColorHint" />
 
-        <EditText android:textColorHint="@color/textColorHint" android:textColor="@color/colorText"
+        <EditText
             android:id="@+id/cityEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:hint="@string/city" />
+            android:hint="@string/city"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/textColorHint" />
 
-        <EditText android:textColorHint="@color/textColorHint" android:textColor="@color/colorText"
+        <EditText
             android:id="@+id/phoneEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:ems="10"
+            android:hint="@string/phone"
             android:inputType="phone"
-            android:hint="@string/phone" />
-<!--
-        <EditText android:textColorHint="@color/textColorHint" android:textColor="@color/colorText"
-            android:id="@+id/locationEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:hint="@string/gps_location" />
--->
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/textColorHint" />
+        <!--
+                <EditText android:textColorHint="@color/textColorHint" android:textColor="@color/colorText"
+                    android:id="@+id/locationEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:hint="@string/gps_location" />
+        -->
         <Button
             android:id="@+id/sendButton"
             android:layout_width="match_parent"

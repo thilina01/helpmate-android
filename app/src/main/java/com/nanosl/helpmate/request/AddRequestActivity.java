@@ -17,7 +17,6 @@ package com.nanosl.helpmate.request;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -58,7 +57,9 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.nanosl.helpmate.*;
+import com.nanosl.helpmate.CodelabPreferences;
+import com.nanosl.helpmate.R;
+import com.nanosl.helpmate.SignInActivity;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -67,12 +68,12 @@ public class AddRequestActivity extends AppCompatActivity implements
         GoogleApiClient.OnConnectionFailedListener {
 
 
-    private static final String TAG = "MainActivity";
     public static final String MESSAGES_CHILD = "requests";
-    private static final int REQUEST_INVITE = 1;
-    private static final int REQUEST_IMAGE = 2;
     public static final int DEFAULT_MSG_LENGTH_LIMIT = 1000;
     public static final String ANONYMOUS = "anonymous";
+    private static final String TAG = "MainActivity";
+    private static final int REQUEST_INVITE = 1;
+    private static final int REQUEST_IMAGE = 2;
     private static final String MESSAGE_SENT_EVENT = "message_sent";
     private static final String MESSAGE_URL = "http://friendlychat.firebase.google.com/message/";
 

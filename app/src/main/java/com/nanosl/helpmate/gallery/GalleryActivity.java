@@ -70,11 +70,11 @@ import static com.google.firebase.appindexing.builders.Indexables.personBuilder;
 
 public class GalleryActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
 
-    private static final String TAG = "Gallery";
     public static final String MESSAGES_CHILD = "gallerys";
+    public static final String ANONYMOUS = "anonymous";
+    private static final String TAG = "Gallery";
     private static final int REQUEST_INVITE = 1;
     private static final int REQUEST_IMAGE = 2;
-    public static final String ANONYMOUS = "anonymous";
     private static final String MESSAGE_URL = "http://friendlychat.firebase.google.com/message/";
     private static final String LOADING_IMAGE_URL = "https://www.google.com/images/spin-32.gif";
 

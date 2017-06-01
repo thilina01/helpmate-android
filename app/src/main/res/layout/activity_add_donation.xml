@@ -25,7 +25,7 @@
                     android:text="@string/donation"
                     android:textAppearance="@android:style/TextAppearance.Large" />
         -->
-        <EditText android:textColorHint="@color/textColorHint"
+        <EditText
             android:id="@+id/descriptionEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,36 +33,39 @@
             android:layout_weight="1"
             android:hint="@string/description"
             android:textColor="@color/colorText"
-            />
+            android:textColorHint="@color/textColorHint" />
 
-        <EditText android:textColorHint="@color/textColorHint"
+        <EditText
             android:id="@+id/contactPersonEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:hint="@string/contact_person"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/textColorHint" />
 
-        <EditText android:textColorHint="@color/textColorHint"
+        <EditText
             android:id="@+id/addressEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:hint="@string/address"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/textColorHint" />
 
-        <EditText android:textColorHint="@color/textColorHint"
+        <EditText
             android:id="@+id/cityEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:hint="@string/city"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/textColorHint" />
 
-        <EditText android:textColorHint="@color/textColorHint"
+        <EditText
             android:id="@+id/phoneEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,7 +74,8 @@
             android:ems="10"
             android:hint="@string/phone"
             android:inputType="phone"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/textColorHint" />
         <!--
                 <EditText android:textColorHint="@color/textColorHint" android:textColor="@color/colorText"
                     android:id="@+id/locationEditText"

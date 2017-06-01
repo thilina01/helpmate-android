@@ -10,10 +10,12 @@ import com.google.firebase.database.FirebaseDatabase;
 public class DonationService {
 
     public static final String CHILD = "donations";
-    public static void save(Donation donation){
+
+    public static void save(Donation donation) {
         FirebaseDatabase.getInstance().getReference().child(CHILD).push().setValue(donation);
     }
-    public static DatabaseReference getReference(String id){
+
+    public static DatabaseReference getReference(String id) {
         return FirebaseDatabase.getInstance().getReference().child(CHILD).child(id);
     }
 }

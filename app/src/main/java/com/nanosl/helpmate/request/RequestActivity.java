@@ -61,10 +61,10 @@ import static com.google.firebase.appindexing.builders.Indexables.personBuilder;
 
 public class RequestActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
 
-    private static final String TAG = "Request";
     public static final String MESSAGES_CHILD = "requests";
-    private static final int REQUEST_INVITE = 1;
     public static final String ANONYMOUS = "anonymous";
+    private static final String TAG = "Request";
+    private static final int REQUEST_INVITE = 1;
     private static final String MESSAGE_URL = "http://friendlychat.firebase.google.com/message/";
 
     private String mUsername;

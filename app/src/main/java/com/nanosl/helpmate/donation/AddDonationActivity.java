@@ -17,7 +17,6 @@ package com.nanosl.helpmate.donation;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -69,12 +68,12 @@ public class AddDonationActivity extends AppCompatActivity implements
         GoogleApiClient.OnConnectionFailedListener {
 
 
-    private static final String TAG = "AddDonation";
     public static final String MESSAGES_CHILD = "donations";
-    private static final int REQUEST_INVITE = 1;
-    private static final int REQUEST_IMAGE = 2;
     public static final int DEFAULT_MSG_LENGTH_LIMIT = 1000;
     public static final String ANONYMOUS = "anonymous";
+    private static final String TAG = "AddDonation";
+    private static final int REQUEST_INVITE = 1;
+    private static final int REQUEST_IMAGE = 2;
     private static final String MESSAGE_SENT_EVENT = "message_sent";
     private static final String MESSAGE_URL = "http://friendlychat.firebase.google.com/message/";
 

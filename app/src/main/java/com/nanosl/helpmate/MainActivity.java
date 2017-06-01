@@ -31,27 +31,16 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.android.gms.appinvite.AppInviteInvitation;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.google.firebase.appindexing.Action;
-import com.google.firebase.appindexing.FirebaseAppIndex;
-import com.google.firebase.appindexing.FirebaseUserActions;
-import com.google.firebase.appindexing.Indexable;
-import com.google.firebase.appindexing.builders.PersonBuilder;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 import com.nanosl.helpmate.request.AddRequestActivity;
@@ -59,14 +48,12 @@ import com.nanosl.helpmate.request.AddRequestActivity;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.google.firebase.appindexing.builders.Indexables.*;
-
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
 
-    private static final String TAG = "MainActivity";
     public static final String MESSAGES_CHILD = "requests";
-    private static final int REQUEST_INVITE = 1;
     public static final String ANONYMOUS = "anonymous";
+    private static final String TAG = "MainActivity";
+    private static final int REQUEST_INVITE = 1;
     private static final String MESSAGE_URL = "http://friendlychat.firebase.google.com/message/";
 
     private String mUsername;
@@ -107,9 +94,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         }
 
 //        mGoogleApiClient = new GoogleApiClient.Builder(this)
-  //              .enableAutoManage(this /* FragmentActivity */, this /* OnConnectionFailedListener */)
-    //            .addApi(Auth.GOOGLE_SIGN_IN_API)
-      //          .build();
+        //              .enableAutoManage(this /* FragmentActivity */, this /* OnConnectionFailedListener */)
+        //            .addApi(Auth.GOOGLE_SIGN_IN_API)
+        //          .build();
 
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
         mMessageRecyclerView = (RecyclerView) findViewById(R.id.messageRecyclerView);
@@ -190,7 +177,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         });
 */
         mMessageRecyclerView.setLayoutManager(mLinearLayoutManager);
-       // mMessageRecyclerView.setAdapter(mFirebaseAdapter);
+        // mMessageRecyclerView.setAdapter(mFirebaseAdapter);
 
         // Initialize Firebase Measurement.
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
@@ -245,32 +232,33 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             Toast.makeText(this, "" + permission + " is already granted.", Toast.LENGTH_SHORT).show();
         }
     }
-/*
-    private Action getMessageViewAction(Request request) {
-        return new Action.Builder(Action.Builder.VIEW_ACTION)
-                .setObject(request.getContactPerson(), MESSAGE_URL.concat(request.getId()))
-                .setMetadata(new Action.Metadata.Builder().setUpload(false))
-                .build();
-    }
 
-    private Indexable getMessageIndexable(Request request) {
-        PersonBuilder sender = personBuilder()
-                .setIsSelf(mUsername.equals(request.getUsername()))
-                .setName(request.getUsername())
-                .setUrl(MESSAGE_URL.concat(request.getId() + "/sender"));
+    /*
+        private Action getMessageViewAction(Request request) {
+            return new Action.Builder(Action.Builder.VIEW_ACTION)
+                    .setObject(request.getContactPerson(), MESSAGE_URL.concat(request.getId()))
+                    .setMetadata(new Action.Metadata.Builder().setUpload(false))
+                    .build();
+        }
 
-        PersonBuilder recipient = personBuilder()
-                .setName(mUsername)
-                .setUrl(MESSAGE_URL.concat(request.getId() + "/recipient"));
+        private Indexable getMessageIndexable(Request request) {
+            PersonBuilder sender = personBuilder()
+                    .setIsSelf(mUsername.equals(request.getUsername()))
+                    .setName(request.getUsername())
+                    .setUrl(MESSAGE_URL.concat(request.getId() + "/sender"));
 
-        return messageBuilder()
-                .setName(request.getDescription())
-                .setUrl(MESSAGE_URL.concat(request.getId()))
-                .setSender(sender)
-                .setRecipient(recipient)
-                .build();
-    }
-*/
+            PersonBuilder recipient = personBuilder()
+                    .setName(mUsername)
+                    .setUrl(MESSAGE_URL.concat(request.getId() + "/recipient"));
+
+            return messageBuilder()
+                    .setName(request.getDescription())
+                    .setUrl(MESSAGE_URL.concat(request.getId()))
+                    .setSender(sender)
+                    .setRecipient(recipient)
+                    .build();
+        }
+    */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();

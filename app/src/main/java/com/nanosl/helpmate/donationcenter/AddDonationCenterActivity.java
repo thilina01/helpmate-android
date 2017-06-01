@@ -17,7 +17,6 @@ package com.nanosl.helpmate.donationcenter;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -69,12 +68,12 @@ public class AddDonationCenterActivity extends AppCompatActivity implements
         GoogleApiClient.OnConnectionFailedListener {
 
 
-    private static final String TAG = "AddDonationCenter";
     public static final String MESSAGES_CHILD = "donationCenters";
-    private static final int REQUEST_INVITE = 1;
-    private static final int REQUEST_IMAGE = 2;
     public static final int DEFAULT_MSG_LENGTH_LIMIT = 1000;
     public static final String ANONYMOUS = "anonymous";
+    private static final String TAG = "AddDonationCenter";
+    private static final int REQUEST_INVITE = 1;
+    private static final int REQUEST_IMAGE = 2;
     private static final String MESSAGE_SENT_EVENT = "message_sent";
     private static final String MESSAGE_URL = "http://friendlychat.firebase.google.com/message/";
 
@@ -203,8 +202,8 @@ public class AddDonationCenterActivity extends AppCompatActivity implements
                 if (AddDonationCenterActivity.this.donationCenter != null) {
                     DonationCenterService.getReference(AddDonationCenterActivity.this.donationCenter.getId()).child("status").setValue("inactive");
                 }
-                DonationCenter donationCenter = new DonationCenter(nameEditText.getText().toString(),descriptionEditText.getText().toString(), contactPersonEditText.getText().toString(),
-                        addressEditText.getText().toString(), cityEditText.getText().toString(), phoneEditText.getText().toString(),"", mUid, mUsername, mPhotoUrl);
+                DonationCenter donationCenter = new DonationCenter(nameEditText.getText().toString(), descriptionEditText.getText().toString(), contactPersonEditText.getText().toString(),
+                        addressEditText.getText().toString(), cityEditText.getText().toString(), phoneEditText.getText().toString(), "", mUid, mUsername, mPhotoUrl);
                 mFirebaseDatabaseReference.child(MESSAGES_CHILD).push().setValue(donationCenter);
                 clearForm();
                 finish();
@@ -359,7 +358,7 @@ public class AddDonationCenterActivity extends AppCompatActivity implements
                     final Uri uri = data.getData();
                     Log.d(TAG, "Uri: " + uri.toString());
 
-                    DonationCenter tempMessage = new DonationCenter(nameEditText.getText().toString(),descriptionEditText.getText().toString(), contactPersonEditText.getText().toString(),
+                    DonationCenter tempMessage = new DonationCenter(nameEditText.getText().toString(), descriptionEditText.getText().toString(), contactPersonEditText.getText().toString(),
                             addressEditText.getText().toString(), cityEditText.getText().toString(), phoneEditText.getText().toString(), "", mUid, mUsername, mPhotoUrl);
                     mFirebaseDatabaseReference.child(MESSAGES_CHILD).push()
                             .setValue(tempMessage, new DatabaseReference.CompletionListener() {

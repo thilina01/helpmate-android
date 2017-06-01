@@ -15,8 +15,8 @@ import com.nanosl.helpmate.request.RequestActivity;
  */
 
 public class AppMenu {
-    private static Activity activity;
     private static final int REQUEST_INVITE = 1;
+    private static Activity activity;
 
     public static boolean action(Activity anActivity, MenuItem item) {
         activity = anActivity;
@@ -45,8 +45,9 @@ public class AppMenu {
                 activity.startActivity(new Intent(activity, GalleryActivity.class));
                 //activity.finish();
                 return true;
-            case R.id.exit_menu:Intent homeIntent = new Intent(Intent.ACTION_MAIN);
-                homeIntent.addCategory( Intent.CATEGORY_HOME );
+            case R.id.exit_menu:
+                Intent homeIntent = new Intent(Intent.ACTION_MAIN);
+                homeIntent.addCategory(Intent.CATEGORY_HOME);
                 homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 activity.startActivity(homeIntent);
                 //activity.finish();

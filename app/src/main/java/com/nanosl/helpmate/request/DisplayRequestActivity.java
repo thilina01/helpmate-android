@@ -31,7 +31,7 @@ import android.widget.TextView;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.firebase.auth.FirebaseAuth;
-import com.nanosl.helpmate.*;
+import com.nanosl.helpmate.R;
 
 public class DisplayRequestActivity extends AppCompatActivity implements
         GoogleApiClient.OnConnectionFailedListener {
@@ -44,7 +44,7 @@ public class DisplayRequestActivity extends AppCompatActivity implements
     private TextView cityTextView;
     private TextView contactPersonTextView;
     private TextView phoneTextView;
-   // private TextView locationTextView;
+    // private TextView locationTextView;
     private Button editButton;
     private Button deleteButton;
 

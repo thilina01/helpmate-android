@@ -10,10 +10,12 @@ import com.google.firebase.database.FirebaseDatabase;
 public class GalleryService {
 
     public static final String CHILD = "gallerys";
-    public static void save(Gallery gallery){
+
+    public static void save(Gallery gallery) {
         FirebaseDatabase.getInstance().getReference().child(CHILD).push().setValue(gallery);
     }
-    public static DatabaseReference getReference(String id){
+
+    public static DatabaseReference getReference(String id) {
         return FirebaseDatabase.getInstance().getReference().child(CHILD).child(id);
     }
 }

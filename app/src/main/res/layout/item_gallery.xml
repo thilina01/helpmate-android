@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_marginBottom="10dp">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,12 +16,13 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
 
-            <TextView android:textColor="@color/colorText"
+            <TextView
                 android:id="@+id/messageTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorText" />
 
             <ImageView
                 android:id="@+id/messageImageView"
@@ -31,12 +32,13 @@
                 android:background="@color/colorPrimary"
                 android:scaleType="fitCenter" />
 
-            <TextView android:textColor="@color/colorText"
+            <TextView
                 android:id="@+id/messengerTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorText" />
         </LinearLayout>
 
         <de.hdodenhof.circleimageview.CircleImageView
@@ -48,10 +50,10 @@
     </RelativeLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
     </LinearLayout>
 

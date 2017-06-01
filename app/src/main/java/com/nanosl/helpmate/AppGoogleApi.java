@@ -1,6 +1,5 @@
 package com.nanosl.helpmate;
 
-import android.app.Activity;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 
