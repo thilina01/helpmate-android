@@ -21,7 +21,7 @@
         android:layout_alignParentStart="true"
         android:orientation="vertical">
 
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/needTitleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             android:text="@string/request"
             android:textAppearance="@android:style/TextAppearance.Medium" />
 
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/needTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
             android:layout_height="10dp"
             android:layout_weight="1" />
 
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/contactPersonTitleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
             android:text="@string/contact_person"
             android:textAppearance="@android:style/TextAppearance.Medium"/>
 
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/contactPersonTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
             android:layout_height="10dp"
             android:layout_weight="1" />
 
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/addressTitleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
             android:text="@string/address"
             android:textAppearance="@android:style/TextAppearance.Medium" />
 
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/addressTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
             android:layout_height="10dp"
             android:layout_weight="1" />
 
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/cityTitleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
             android:text="@string/city"
             android:textAppearance="@android:style/TextAppearance.Medium" />
 
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/cityTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -109,7 +109,7 @@
             android:layout_height="10dp"
             android:layout_weight="1" />
 
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/phoneTitleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -118,7 +118,7 @@
             android:text="@string/phone"
             android:textAppearance="@android:style/TextAppearance.Medium" />
 
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/phoneTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -131,7 +131,7 @@
             android:layout_height="10dp"
             android:layout_weight="1" />
 <!--
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/locationTitleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
             android:text="@string/location"
             android:textAppearance="@android:style/TextAppearance.Medium"/>
 
-        <TextView
+        <TextView android:textColor="@color/colorText"
             android:id="@+id/locationTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

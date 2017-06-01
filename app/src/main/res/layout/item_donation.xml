@@ -25,7 +25,7 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
 
-            <TextView
+            <TextView android:textColor="@color/colorText"
                 android:id="@+id/messageTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
                 android:background="@color/colorPrimary"
                 android:scaleType="fitCenter" />
 
-            <TextView
+            <TextView android:textColor="@color/colorText"
                 android:id="@+id/messengerTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -53,14 +53,14 @@
                 android:layout_weight="0"
                 android:orientation="horizontal">
 
-                <TextView
+                <TextView android:textColor="@color/colorText"
                     android:id="@+id/cityTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
-                <TextView
+                <TextView android:textColor="@color/colorText"
                     android:id="@+id/addedTimeTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
