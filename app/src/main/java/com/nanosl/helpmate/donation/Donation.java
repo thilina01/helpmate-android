@@ -15,6 +15,10 @@
  */
 package com.nanosl.helpmate.donation;
 
+import android.location.Location;
+
+import com.nanosl.helpmate.AppLocation;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -32,6 +36,9 @@ public class Donation implements Serializable {
     private String gpsLocation;
     private String status;
     private Date addedTime;
+    private String latitude;
+    private String longitude;
+
 
     public Donation() {
     }
@@ -48,6 +55,9 @@ public class Donation implements Serializable {
         this.status = "active";
         this.setUid(uid);
         this.setAddedTime(new Date());
+        Location location = AppLocation.getLocation();
+        latitude = location!=null?location.getLatitude()+"":"-";
+        longitude = location!=null?location.getLongitude()+"":"-";
     }
 
     public String getId() {
@@ -146,4 +156,12 @@ public class Donation implements Serializable {
         this.addedTime = addedTime;
     }
 
+
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
 }
