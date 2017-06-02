@@ -45,8 +45,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
-            app:backgroundTint="?attr/colorPrimary"
-            app:srcCompat="@android:drawable/ic_menu_add" />
+            app:backgroundTint="@color/colorAccent"
+            app:srcCompat="@drawable/ic_add_circle_outline"  />
 
     </RelativeLayout>
 </LinearLayout>
