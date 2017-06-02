@@ -15,6 +15,9 @@
  */
 package com.nanosl.helpmate;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.location.Location;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -27,12 +30,18 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+    TextView testTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        AppFirebase.init(this);
+        AppGoogleApi.init(this);
+        AppLocation.init(this);
+
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -41,8 +50,10 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+               /* Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();*/
+                openMap();
+
             }
         });
 
@@ -55,8 +66,16 @@ public class MainActivity extends AppCompatActivity {
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(AppNavigationItemSelectedListener.getInstance(this));
 
-        AppFirebase.init(this);
-        AppGoogleApi.init(this);
+        Location location = AppLocation.getLocation(this);
+        String latitude = location!=null?location.getLatitude()+"":"-";
+        String longitude = location!=null?location.getLongitude()+"":"-";
+        testTextView = (TextView) findViewById(R.id.testTextView);
+        testTextView.setText(latitude + " & " + longitude);
+
+    }
+
+    private void openMap() {
+        startActivityForResult(new Intent(this, MyLocationDemoActivity.class),1);
     }
 
     @Override
@@ -76,6 +95,19 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
+        if (requestCode == 1) {
+            if(resultCode == Activity.RESULT_OK){
+                String latitude=data.getStringExtra("latitude");
+                String longitude=data.getStringExtra("longitude");
 
+                testTextView.setText(latitude + " & " + longitude);
+            }
+            if (resultCode == Activity.RESULT_CANCELED) {
+                //Write your code if there's no result
+            }
+        }
+    }//onActivityResult
 }
