@@ -37,5 +37,6 @@
     <string name="location_permission_denied">Location permission denied</string>
     <string name="permission_required_toast">Permission Required</string>
     <string name="permission_rationale_location">Access to the location service is required to demonstrate the \\\'my location\\\' feature, which shows your current location on the map.</string>
+    <string name="app_tag_line">Smart way to help and get help</string>
 
 </resources>
