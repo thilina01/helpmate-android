@@ -31,4 +31,11 @@
     <string name="gallery">Gallery</string>
     <string name="requests">Requests</string>
     <string name="exit">Exit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="location_permission_denied">Location permission denied</string>
+    <string name="permission_required_toast">Permission Required</string>
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \\\'my location\\\' feature, which shows your current location on the map.</string>
+
 </resources>
