@@ -21,20 +21,16 @@ import android.location.Location;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView testTextView;
-    DrawerLayout drawer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
@@ -68,23 +64,13 @@ public class MainActivity extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(AppNavigationItemSelectedListener.getInstance(this));
 
         Location location = AppLocation.getLocation(this);
-        String latitude = location!=null?location.getLatitude()+"":"-";
-        String longitude = location!=null?location.getLongitude()+"":"-";
+        String latitude = location != null ? location.getLatitude() + "" : "-";
+        String longitude = location != null ? location.getLongitude() + "" : "-";
         testTextView = (TextView) findViewById(R.id.testTextView);
         testTextView.setText(latitude + " & " + longitude);
 
     }
 
-    private void openMap() {
-        startActivityForResult(new Intent(this, MyLocationDemoActivity.class),1);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_menu, menu);
-        return true;
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -96,13 +82,14 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
         if (requestCode == 1) {
-            if(resultCode == Activity.RESULT_OK){
-                String latitude=data.getStringExtra("latitude");
-                String longitude=data.getStringExtra("longitude");
+            if (resultCode == Activity.RESULT_OK) {
+                String latitude = data.getStringExtra("latitude");
+                String longitude = data.getStringExtra("longitude");
 
                 testTextView.setText(latitude + " & " + longitude);
             }
@@ -112,12 +99,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    public void onBackPressed() {
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
 }

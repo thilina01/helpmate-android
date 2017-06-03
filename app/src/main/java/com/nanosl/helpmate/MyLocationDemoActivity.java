@@ -14,7 +14,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -77,14 +76,14 @@ public class MyLocationDemoActivity extends AppCompatActivity
 
     private void fabClicked(View view) {
 
-        String latitude=marker.getPosition().latitude+"";
-        String longitude=marker.getPosition().longitude+"";
-        Snackbar.make(view, "Fab Clicked: " + latitude +" / "+longitude, Snackbar.LENGTH_LONG)
+        String latitude = marker.getPosition().latitude + "";
+        String longitude = marker.getPosition().longitude + "";
+        Snackbar.make(view, "Fab Clicked: " + latitude + " / " + longitude, Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show();
         Intent returnIntent = new Intent();
-        returnIntent.putExtra("latitude",latitude);
-        returnIntent.putExtra("longitude",longitude);
-        setResult(Activity.RESULT_OK,returnIntent);
+        returnIntent.putExtra("latitude", latitude);
+        returnIntent.putExtra("longitude", longitude);
+        setResult(Activity.RESULT_OK, returnIntent);
         finish();
     }
 

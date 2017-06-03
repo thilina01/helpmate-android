@@ -17,9 +17,9 @@ import com.nanosl.helpmate.request.RequestActivity;
  */
 
 public class AppNavigationItemSelectedListener implements NavigationView.OnNavigationItemSelectedListener {
+    private static final int REQUEST_INVITE = 1;
     private static AppNavigationItemSelectedListener instance;
     private static Activity activity;
-    private static final int REQUEST_INVITE = 1;
 
     public static NavigationView.OnNavigationItemSelectedListener getInstance(Activity anActivity) {
         if (instance == null) {
@@ -27,6 +27,14 @@ public class AppNavigationItemSelectedListener implements NavigationView.OnNavig
         }
         instance.activity = anActivity;
         return instance;
+    }
+
+    private static void sendInvitation() {
+        Intent intent = new AppInviteInvitation.IntentBuilder(activity.getString(R.string.invitation_title))
+                .setMessage(activity.getString(R.string.invitation_message))
+                .setCallToActionText(activity.getString(R.string.invitation_cta))
+                .build();
+        activity.startActivityForResult(intent, REQUEST_INVITE);
     }
 
     @Override
@@ -70,13 +78,5 @@ public class AppNavigationItemSelectedListener implements NavigationView.OnNavig
             default:
                 return false;
         }
-    }
-
-    private static void sendInvitation() {
-        Intent intent = new AppInviteInvitation.IntentBuilder(activity.getString(R.string.invitation_title))
-                .setMessage(activity.getString(R.string.invitation_message))
-                .setCallToActionText(activity.getString(R.string.invitation_cta))
-                .build();
-        activity.startActivityForResult(intent, REQUEST_INVITE);
     }
 }
