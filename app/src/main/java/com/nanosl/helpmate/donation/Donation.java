@@ -56,8 +56,8 @@ public class Donation implements Serializable {
         this.setUid(uid);
         this.setAddedTime(new Date());
         Location location = AppLocation.getLocation();
-        latitude = location != null ? location.getLatitude() + "" : "-";
-        longitude = location != null ? location.getLongitude() + "" : "-";
+        latitude = location!=null?location.getLatitude()+"":"-";
+        longitude = location!=null?location.getLongitude()+"":"-";
     }
 
     public String getId() {

@@ -21,7 +21,6 @@ public class AppLocation {
     public static void init(MainActivity theMainActivity) {
         mainActivity = theMainActivity;
     }
-
     public static Location getLocation(Activity activity) {
         LocationManager locationManager = (LocationManager) activity.getSystemService(Context.LOCATION_SERVICE);
         List<String> providers = locationManager.getProviders(false);

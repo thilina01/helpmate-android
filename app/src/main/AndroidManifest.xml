@@ -16,10 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
-
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key"/>
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -28,8 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.nanosl.helpmate.MainActivity"
+        <activity android:name="com.nanosl.helpmate.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />

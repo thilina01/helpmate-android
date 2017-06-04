@@ -33,7 +33,7 @@ public class AppFirebase {
 
         // Initialize Firebase Auth
         firebaseAuth = FirebaseAuth.getInstance();
-        if (firebaseAuth == null || firebaseAuth.getCurrentUser() == null) {
+        if (firebaseAuth == null || firebaseAuth.getCurrentUser()==null) {
             // Not signed in, launch the Sign In activity
             activity.startActivity(new Intent(activity, SignInActivity.class));
             activity.finish();
